@@ -36,3 +36,110 @@
     transform: rotate(360deg);
   }
 }
+
+.crypto-converter {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 1px;
+}
+
+.crypto-converter h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.crypto-converter form {
+  display: flex;
+  flex-direction: column;
+}
+
+.crypto-converter .input-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.crypto-converter .input-group label {
+  margin-right: 10px;
+  flex: 1;
+}
+
+.crypto-converter .input-group input {
+  flex: 2;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+body {
+  background-color: #222;
+  font-family: Arial, sans-serif;
+  color: #eee;
+}
+
+.container {
+  margin: 50px auto;
+  width: 80%;
+  max-width: 600px;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: #eee;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: #6fbf73;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5aa664;
+}
+
+.result {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
